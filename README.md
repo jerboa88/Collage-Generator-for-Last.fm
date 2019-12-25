@@ -72,7 +72,7 @@ optional arguments:
 ```
 
 ## Screenshots
-Desktop site | &#8291;
+&#8291; | &#8291;
 :-:|:-:
 ![Screenshot 1](screenshots/ss1.jpg) | ![Screenshot 2](screenshots/ss2.jpg)
 
