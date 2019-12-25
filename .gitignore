@@ -1,4 +1,4 @@
 images/
 apikey.txt
-*.png
-*.jpg
+/*.png
+/*.jpg
