@@ -1,7 +1,7 @@
 # Last.fm Collage Generator [Python]
 ![](https://img.shields.io/badge/type-Python-blue.svg "Project type")
 ![](https://img.shields.io/github/repo-size/jerboa88/last.fm-collage-generator.svg "Repository size")
-[![](https://img.shields.io/github/license/jerboa88/last.fm-collage-generator.svg "Project license")](LICENSE.md)
+[![](https://img.shields.io/github/license/jerboa88/last.fm-collage-generator.svg "Project license")](LICENSE)
 
 
 Generate a collage of your favorite albums based on Last.fm scrobbles
