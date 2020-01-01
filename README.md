@@ -8,7 +8,7 @@ Generate a collage of your favorite albums based on Last.fm scrobbles
 
 
 ## Installation
-[Requests](https://pypi.org/project/requests/) and [Pillow](https://pypi.org/project/Pillow/) are required dependencies. Use `pip install requests` and `pip install Pillow` to install them
+[Requests](https://pypi.org/project/requests/) and [Pillow](https://pypi.org/project/Pillow/) are required dependencies. Use `pip install requests` and `pip install Pillow` to install them. A Last.fm API key is required to fetch a user's top albums. You can get one easily [here](https://www.last.fm/api/). You can either put your key in a text file called `apikey.txt` or pass it as a command line argument (not recommended)
 
 
 ## Usage
