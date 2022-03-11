@@ -1,22 +1,22 @@
 <!-- Project Header -->
-<div align="center"> 
+<div align="center">
   <img class="projectLogo" src="screenshots/ss1.jpg" alt="Project logo" title="Project logo" width="256">
 
-  <h1 class="projectName">Last.fm Collage Generator</h1>
+  <h1 class="projectName">Collage Generator for Last.fm</h1>
 
   <p class="projectBadges">
     <img src="https://img.shields.io/badge/type-CLI_App-f44336.svg" alt="Project type" title="Project type">
-    <img src="https://img.shields.io/github/languages/top/jerboa88/last.fm-collage-generator.svg" alt="Language" title="Language">
-    <img src="https://img.shields.io/github/repo-size/jerboa88/last.fm-collage-generator.svg" alt="Repository size" title="Repository size">
+    <img src="https://img.shields.io/github/languages/top/jerboa88/collage-generator-for-last.fm.svg" alt="Language" title="Language">
+    <img src="https://img.shields.io/github/repo-size/jerboa88/collage-generator-for-last.fm.svg" alt="Repository size" title="Repository size">
     <a href="LICENSE">
-      <img src="https://img.shields.io/github/license/jerboa88/last.fm-collage-generator.svg" alt="Project license" title="Project license"/>
+      <img src="https://img.shields.io/github/license/jerboa88/collage-generator-for-last.fm.svg" alt="Project license" title="Project license"/>
     </a>
   </p>
-  
+
   <p class="projectDesc">
     A command-line app to generate a collage of your favorite albums based on Last.fm scrobbles
   </p>
-  
+
   <br/>
 </div>
 
@@ -28,18 +28,18 @@
 
 
 ## Usage
-Run the program from the command-line like so: `python3 lastfm_collage_generator.py example 1920 1080`. You need to provide the user, width, and height but the other arguments are optional. All available arguments are listed below.
+Run the program from the command-line like so: `python3 collage_generator_for_lastfm.py example 1920 1080`. You need to provide the user, width, and height but the other arguments are optional. All available arguments are listed below.
 
 ```
-lastfm_collage_generator.py [-h] [--size SIZE] [--apikey APIKEY]
-                            [--output OUTPUT] [--filetype {jpg,png}]
-                            [--jpeg_quality {1-100}]
-                            [--png_compression {0-9}]
-                            [--period {forever,year,6month,3month,month,week}]
-                            [--layout {spiral,topleft}]
-                            [--update_images {auto,yes,no}]
-                            [--ignore]
-                            user width height
+collage_generator_for_lastfm.py [-h] [--size SIZE] [--apikey APIKEY]
+                                [--output OUTPUT] [--filetype {jpg,png}]
+                                [--jpeg_quality {1-100}]
+                                [--png_compression {0-9}]
+                                [--period {forever,year,6month,3month,month,week}]
+                                [--layout {spiral,topleft}]
+                                [--update_images {auto,yes,no}]
+                                [--ignore]
+                                user width height
 
 
 positional arguments:
@@ -58,7 +58,7 @@ optional arguments:
                         work
   --output OUTPUT, -o OUTPUT
                         The filename of the output image. The file extension
-                        doesn have to be included. Default: collage
+                        doesn't have to be included. Default: collage
   --filetype {jpg,png}, -f {jpg,png}
                         The filetype of the output image. Default: jpg
   --jpeg_quality {1-100}, -q {1-100}
@@ -88,9 +88,9 @@ optional arguments:
 ```
 
 ## Screenshots
-&#8291; | &#8291;
-:-:|:-:
-![Screenshot 1](screenshots/ss1.jpg) | ![Screenshot 2](screenshots/ss2.jpg)
+|               &#8291;                |               &#8291;                |
+| :----------------------------------: | :----------------------------------: |
+| ![Screenshot 1](screenshots/ss1.jpg) | ![Screenshot 2](screenshots/ss2.jpg) |
 
 
 ## Contributing
