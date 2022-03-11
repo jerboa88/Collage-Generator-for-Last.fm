@@ -1,18 +1,34 @@
-# Last.fm Collage Generator [Python]
-![](https://img.shields.io/badge/type-Python-blue.svg "Project type")
-![](https://img.shields.io/github/repo-size/jerboa88/last.fm-collage-generator.svg "Repository size")
-[![](https://img.shields.io/github/license/jerboa88/last.fm-collage-generator.svg "Project license")](LICENSE)
+<!-- Project Header -->
+<div align="center"> 
+  <img class="projectLogo" src="screenshots/ss1.jpg" alt="Project logo" title="Project logo" width="256">
 
+  <h1 class="projectName">Last.fm Collage Generator</h1>
 
-Generate a collage of your favorite albums based on Last.fm scrobbles
+  <p class="projectBadges">
+    <img src="https://img.shields.io/badge/type-CLI_App-f44336.svg" alt="Project type" title="Project type">
+    <img src="https://img.shields.io/github/languages/top/jerboa88/last.fm-collage-generator.svg" alt="Language" title="Language">
+    <img src="https://img.shields.io/github/repo-size/jerboa88/last.fm-collage-generator.svg" alt="Repository size" title="Repository size">
+    <a href="LICENSE">
+      <img src="https://img.shields.io/github/license/jerboa88/last.fm-collage-generator.svg" alt="Project license" title="Project license"/>
+    </a>
+  </p>
+  
+  <p class="projectDesc">
+    A command-line app to generate a collage of your favorite albums based on Last.fm scrobbles
+  </p>
+  
+  <br/>
+</div>
 
 
 ## Installation
-[Requests](https://pypi.org/project/requests/) and [Pillow](https://pypi.org/project/Pillow/) are required dependencies. Use `pip install requests` and `pip install Pillow` to install them. A Last.fm API key is required to fetch a user's top albums. You can get one easily [here](https://www.last.fm/api/). You can either put your key in a text file called `apikey.txt` or pass it as a command line argument (not recommended)
+1. Python 3 is required. You can download it from [here](https://www.python.org/downloads/).
+2. [Requests](https://pypi.org/project/requests/) and [Pillow](https://pypi.org/project/Pillow/) are required dependencies. Use `pip install requests` and `pip install Pillow` to install them.
+3. A Last.fm API key is required to fetch a user's top albums. You can get one easily [here](https://www.last.fm/api/). You can either put your key in a text file called `apikey.txt` or pass it as a command line argument (not recommended)
 
 
 ## Usage
-Run from the command line with the user, width, and height at a minimum (`python3 lastfm_collage_generator.py example 1920 1080`). Python 3 is required
+Run the program from the command-line like so: `python3 lastfm_collage_generator.py example 1920 1080`. You need to provide the user, width, and height but the other arguments are optional. All available arguments are listed below.
 
 ```
 lastfm_collage_generator.py [-h] [--size SIZE] [--apikey APIKEY]
@@ -78,8 +94,8 @@ optional arguments:
 
 
 ## Contributing
-Contributions, issues, and forks are welcome
+Contributions, issues, and forks are welcome.
 
 
 ## License
-This project is licensed under the Mozilla Public License 2.0. See [LICENSE](LICENSE) for details. This project is not affiliated with or endorsed by Last.fm in any way. All album covers belong to their respective owners
+This project is licensed under the Mozilla Public License 2.0. See [LICENSE](LICENSE) for details. This project is not affiliated with or endorsed by Last.fm in any way. All album covers belong to their respective owners.
