@@ -100,7 +100,7 @@ def ParseInputOptions():
 				    'The ' + dim_labels[i] +
 				    ' entered is way too big. If you\'re serious about this you can modify the code to bypass this limitation')
 
-			Continue('The ' + dim_labels[i] + ' entered is pretty big. This may take a while', args.ignore)
+			Continue('The ' + dim_labels[i] + ' entered is pretty big. This may take a while', args.ignore_warnings)
 
 		elif dim[i] < 0:
 			raise ValueError('The ' + dim_labels[i] + ' can\'t be negative')
@@ -124,13 +124,13 @@ def ParseInputOptions():
 
 	# Check size
 	if args.size > 300:
-		Continue('Most album covers are not larger than 300px so the images may look blurry', args.ignore)
+		Continue('Most album covers are not larger than 300px so the images may look blurry', args.ignore_warnings)
 
 	elif args.size < 32:
 		if args.size < 0:
 			raise ValueError('The size can\'t be negative')
 
-		Continue('The album size is set very small', args.ignore)
+		Continue('The album size is set very small', args.ignore_warnings)
 
 	# Check period
 	period_mapping = {
@@ -163,7 +163,7 @@ def ParseInputOptions():
 		if args.jpeg_quality < 1:
 			raise ValueError('JPEG quality cannot be less than 1')
 
-		Continue('The JPEG quality is set very low', args.ignore)
+		Continue('The JPEG quality is set very low', args.ignore_warnings)
 
 	# Check PNG compression
 	if args.png_compression > 9:
