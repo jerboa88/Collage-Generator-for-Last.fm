@@ -38,7 +38,7 @@ collage_generator_for_lastfm.py [-h] [--size SIZE] [--apikey APIKEY]
                                 [--period {forever,year,6month,3month,month,week}]
                                 [--layout {spiral,topleft}]
                                 [--update_images {auto,yes,no}]
-                                [--ignore]
+                                [--ignore_warnings]
                                 user width height
 
 
