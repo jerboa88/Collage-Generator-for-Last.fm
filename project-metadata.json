@@ -1,0 +1,13 @@
+{
+  "$schema": "https://johng.io/schema/project-metadata.json",
+  "name": "Collage Generator for Last.fm",
+  "background": "A CLI app that generates a collage of a user's favorite albums based on data from Last.fm. Written in Python, this program was created so that users can express their music taste in a visual way.",
+	"logoPath": "screenshots/ss1.jpg",
+	"category": "App",
+	"subcategory": "CLI",
+  "schema": {
+    "type": "Software",
+    "applicationCategory": "Multimedia",
+    "operatingSystem": "Any"
+  }
+}
