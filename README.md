@@ -13,7 +13,7 @@
     </a>
   </p>
 
-  <p class="projectDesc" data-exposition="A CLI app that generates a collage of a user's favorite albums based on data from Last.fm. Written in Python, this program was created so that users can express their music taste in a visual way.">
+  <p class="projectDesc">
     A command-line app to generate a collage of your favorite albums based on Last.fm scrobbles
   </p>
 
