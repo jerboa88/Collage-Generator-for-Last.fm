@@ -21,13 +21,13 @@
 </div>
 
 
-## Installation
+## 📦 Installation
 1. Python 3 is required. You can download it from [here](https://www.python.org/downloads/).
 2. [Requests](https://pypi.org/project/requests/) and [Pillow](https://pypi.org/project/Pillow/) are required dependencies. Use `pip install requests` and `pip install Pillow` to install them.
 3. A Last.fm API key is required to fetch a user's top albums. You can get one easily [here](https://www.last.fm/api/). You can either put your key in a text file called `apikey.txt` or pass it as a command line argument (not recommended)
 
 
-## Usage
+## 🕹️ Usage
 Run the program from the command-line like so: `python3 collage_generator_for_lastfm.py example 1920 1080`. You need to provide the user, width, and height but the other arguments are optional. All available arguments are listed below.
 
 ```
@@ -87,17 +87,17 @@ optional arguments:
                         Ignore all warnings and proceed using default values
 ```
 
-## Screenshots
+### Screenshots
 |               &#8291;                |               &#8291;                |
 | :----------------------------------: | :----------------------------------: |
 | ![Screenshot 1](screenshots/ss1.jpg) | ![Screenshot 2](screenshots/ss2.jpg) |
 
 
-## Contributing
+## 🤝 Contributing
 Contributions, issues, and forks are welcome.
 
 
-## License
+## 🧾 License
 This project is licensed under the Mozilla Public License 2.0. See [LICENSE](LICENSE) for details. This project is not affiliated with or endorsed by Last.fm in any way. All album covers belong to their respective owners.
 
 
@@ -114,3 +114,4 @@ If you can't donate but still want to contribute, don't worry. There are many ot
 - ⭐ starring the project
 
 I appreciate the support!
+
