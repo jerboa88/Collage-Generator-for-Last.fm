@@ -24,6 +24,10 @@
 ## 👋 About
 A command-line app to generate a collage of your favorite albums based on [Last.fm](https://www.last.fm/) scrobbles.
 
+### Screenshots
+|               &#8291;                |               &#8291;                |
+| :----------------------------------: | :----------------------------------: |
+| ![Screenshot 1](screenshots/ss1.jpg) | ![Screenshot 2](screenshots/ss2.jpg) |
 
 ## 📦 Installation
 1. Python 3 is required. You can download it from [here](https://www.python.org/downloads/).
@@ -91,11 +95,6 @@ optional arguments:
                         Ignore all warnings and proceed using default values
 ```
 
-### Screenshots
-|               &#8291;                |               &#8291;                |
-| :----------------------------------: | :----------------------------------: |
-| ![Screenshot 1](screenshots/ss1.jpg) | ![Screenshot 2](screenshots/ss2.jpg) |
-
 
 ## 🤝 Contributing
 Contributions, issues, and forks are welcome.
@@ -123,3 +122,4 @@ If you can't donate but still want to contribute, don't worry. There are many ot
 - ⭐ starring the project
 
 I appreciate the support!
+
