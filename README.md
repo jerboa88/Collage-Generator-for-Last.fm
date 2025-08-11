@@ -21,6 +21,10 @@
 </div>
 
 
+## 👋 About
+A command-line app to generate a collage of your favorite albums based on [Last.fm](https://www.last.fm/) scrobbles.
+
+
 ## 📦 Installation
 1. Python 3 is required. You can download it from [here](https://www.python.org/downloads/).
 2. [Requests](https://pypi.org/project/requests/) and [Pillow](https://pypi.org/project/Pillow/) are required dependencies. Use `pip install requests` and `pip install Pillow` to install them.
@@ -98,11 +102,16 @@ Contributions, issues, and forks are welcome.
 
 
 ## 🧾 License
-This project is licensed under the Mozilla Public License 2.0. See [LICENSE](LICENSE) for details. This project is not affiliated with or endorsed by Last.fm in any way. All album covers belong to their respective owners.
+This project is licensed under the Mozilla Public License 2.0. See [LICENSE](LICENSE) for details.
+
+This project is not affiliated with or endorsed by Last.fm in any way. All album covers belong to their respective owners.
+
+
+## 🖇️ Related
+ - **[Playlist Archiver for Spotify](https://github.com/jerboa88/Playlist-Archiver-for-Spotify)**: Automatically archive Spotify playlists using Python & GitHub Actions. Never lose your Discover Weekly playlist again!
 
 
 ## 💕 Funding
-
 Find this project useful? [Sponsoring me](https://johng.io/funding) will help me cover costs and **_commit_** more time to open-source.
 
 If you can't donate but still want to contribute, don't worry. There are many other ways to help out, like:
@@ -114,4 +123,3 @@ If you can't donate but still want to contribute, don't worry. There are many ot
 - ⭐ starring the project
 
 I appreciate the support!
-
